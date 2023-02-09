@@ -4,13 +4,13 @@
     {
         static void Main(string[] args)
         {
-            //INSTRUCTION ON OPERANDS
+            //INSTRUCTION ON THE OPERANDS
             Console.WriteLine("Press\n \"+\" for Addition,\n \"-\" for Substraction,\n \"/\" for Division and\n \"*\" for multiplication");
             do
             {
                 //Input firstNumber 
                 Console.Write("Enter First  Number: ");
-                double firstNumber = Convert.ToDouble(Console.ReadLine());
+                double firstNumber = double.Parse(Console.ReadLine());
                 //Enter operand
                 Console.Write("Enter Operator: ");
                 string operand = Console.ReadLine();
